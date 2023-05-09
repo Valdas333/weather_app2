@@ -6,24 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono:wght@300&display=swap"
+        rel="stylesheet">
     <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
-    <h1 style="font-family: 'Roboto Mono', monospace;">Page title</h1>
-    <h1>Page title</h1>
-    <p style="font-family: 'Dancing Script', cursive;">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, recusandae voluptatum cum officiis at ex ea
-        culpa dolore, nemo facere quia enim modi! Dolorum laudantium impedit recusandae natus. Quo, doloribus?
-    </p>
-    <h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur odit accusamus nisi aliquam, deserunt, totam commodi est iste unde, omnis harum quo hic labore fugiat dolore quia ea! Unde?</p>
-    </h1>
-</div>
-    <!-- <p style="font-size:"></p>    -->
+    <main>
+        <section>
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button>
+                <img src="images/search_find_magnifier_zoom_icon.svg" alt="Search icon"
+                    style="width:1rem; border: 1px solid red">
+            </button>
+        </section>
+        <section class="data-view">
+            <h1>Weather in Vilnius</h1>
+            <h2>15.49 <sup>o</sup>C</h2>
+            <div>
+                <img src="images/rain_icon.png" alt="Weather icon" style="width: 2rem;">
+                <div>Cloudy and Rainy</div>
+                <p>Humidity: 60%</p>
+                <p>Wind speed: 6.2 km/h </p>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
