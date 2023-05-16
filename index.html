@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono:wght@300&display=swap"
         rel="stylesheet">
     <title>Weather app</title>
+    <script type='text/javascript' src='config.js'></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,14 +26,14 @@
             </button>
         </section>
         <section class="data-view">
-            <h1>Weather in Vilnius</h1>
-            <h2>15.49 <sup>o</sup>C</h2>
+            <h1 class="city"></h1>
+            <h2 class="temperature"></h2></h2>
             <div class="weather-info">
-                <img src="images/rain_icon.png" alt="Weather icon">
-                <div>Cloudy & Rainy</div>
+                <img src="images/rain_icon.png" alt="Weather icon" class="icon">
+                <div class = "description"></div>
             </div>
-            <p>Humidity: 60%</p>
-            <p>Wind speed: 6.2 km/h</p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
         </section>
     </main>
 </body>

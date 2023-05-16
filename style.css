@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('images/photo.avif');
+    background-image: url('https://source.unsplash.com/1600x900/?Vilnius');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
